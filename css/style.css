@@ -1,0 +1,38 @@
+/*NAVBAR*/
+.navbar-default {
+    background-color: black;
+    border-color: transparent;
+}
+
+.navbar-nav {
+    font-family: 'Signika Negative', sans-serif;
+    margin: 35px 100px 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #16a085;
+}
+
+.logo img {
+    margin: 15px 0 0 100px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+    .logo img {
+        margin: 15px 0 0 15px;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-toggle {
+        margin-top: 45px;
+    }
+}

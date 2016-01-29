@@ -1,0 +1,18 @@
+{
+  "name": "frontEnd",
+  "authors": [
+    "David Aster <davidaster007@gmail.com>"
+  ],
+  "description": "Front End Challenge for Povio Labs",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
