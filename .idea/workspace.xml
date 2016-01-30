@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f0492a-0db5-4ede-9c8a-94cbb452d478" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wow.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -275,7 +271,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454187421439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added full animations in page">
+      <created>1454188595577</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1454188595577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -319,7 +321,8 @@
     <MESSAGE value="adding a multimedia files" />
     <MESSAGE value="modified .gitignore file" />
     <MESSAGE value="modified CSS fille, added jQuery code" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified CSS fille, added jQuery code" />
+    <MESSAGE value="added full animations in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added full animations in page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
