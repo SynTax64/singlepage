@@ -10,7 +10,7 @@ p, h1 {
 
 .navbar-nav {
     font-family: 'Signika Negative', sans-serif;
-    margin: 35px 100px 0;
+    margin: 35px 100px 15px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -49,10 +49,11 @@ p, h1 {
         padding-bottom: 15px;
     }
 
-    #footer p{
+    #footer p {
         text-align: center;
     }
-    #footer img{
+
+    #footer img {
         margin: 0 auto;
         padding-top: 10px;
     }
@@ -97,6 +98,10 @@ p, h1 {
 .btn-success:hover {
     background-color: #000000;
     border: 1px solid black;
+}
+
+.btn-success:focus, .btn-success:active:focus {
+background-color: #16a085;
 }
 
 /*PHOTO*/
@@ -197,25 +202,26 @@ p, h1 {
     text-transform: uppercase;
 }
 
-#download img{
+#download img {
     margin-top: 15px;
 }
 
 /*FOOTER*/
 
-#footer{
+#footer {
     background-color: #ffffff;
     padding: 40px 0 20px 0;
 }
 
-#footer p{
+#footer p {
     font-weight: 700;
 }
-#footer a{
+
+#footer a {
     color: #16a085
 }
 
-#footer a:hover{
+#footer a:hover {
     text-decoration: none;
     color: #12806a;
 }

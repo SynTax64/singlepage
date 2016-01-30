@@ -1,3 +1,17 @@
-/**
- * Created by David ASTER on 29. 01. 2016.
- */
+$(document).ready(function () {
+    $('.navbar').show();
+
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 480) {
+                $('.navbar').fadeOut();
+            } else {
+                $('.navbar').fadeIn();
+            }
+        });
+    });
+
+    $('.carousel').carousel({
+        interval: 4000
+    });
+});
