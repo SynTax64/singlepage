@@ -29,3 +29,11 @@ build/Release
 node_modules
 
 # Created by .ignore support plugin (hsz.mobi)
+
+# Ignore project settings configuration file
+.idea
+
+#Ignore all bower components
+bower_components
+
+
