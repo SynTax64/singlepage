@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     $(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 480) {
+            if ($(this).scrollTop() > 400) {
                 $('.navbar').fadeOut();
             } else {
                 $('.navbar').fadeIn();

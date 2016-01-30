@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Signika+Negative' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
 
 
 </head>
@@ -90,29 +91,29 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeIn" data-wow-delay="0.2s">
                 <i class="fa fa-camera-retro fa-4x"></i>
 
                 <h1>YOUR LIFE IN A PHOTO</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, exercitationem.</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeIn" data-wow-delay="0.3s">
                 <i class="fa fa-comments-o fa-4x"></i>
 
                 <h1>ENGAGE WITH OTHER USERS</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, exercitationem.</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeIn" data-wow-delay="0.4s">
                 <i class="fa fa-cloud-upload fa-4x"></i>
 
                 <h1>STORE IN THE CLOUD</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, exercitationem.</p>
             </div>
-            <div class="col-md-3">
-                <i class="fa fa-thumbs-o-up"></i>
+            <div class="col-md-3 wow fadeIn" data-wow-delay="0.5s">
+                <i class="fa fa-thumbs-o-up fa-4x"></i>
 
                 <h1>INSTANT FEEDBACK</h1>
 
@@ -128,10 +129,10 @@
 <section id="design">
     <div class="container">
         <div class="row">
-            <div class="col-md-6" align="center">
+            <div class="col-md-6 wow bounceInLeft" align="center">
                 <img src="img/iphone.png" class="img-responsive"/>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow bounceInRight">
                 <h1>DESIGN</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio ex fugiat itaque
@@ -153,7 +154,7 @@
 <section id="community">
     <div class="container">
         <div class="row" align="center">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp">
                 <img src="img/logo-green.png" alt="" class="img-resonsive green"/>
 
                 <h1>OUR COMMUNITY</h1>
@@ -162,11 +163,11 @@
                     eum exercitationem illum magni minima nam necessitatibus nobis numquam officia!</p>
             </div>
 
-            <div class="col-md-4 image">
+            <div class="col-md-4 image wow fadeInUp">
                 <img src="img/photo1.jpg" class="img-responsive"/>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp">
                 <img src="img/photo2.jpg" class="img-responsive"/>
             </div>
         </div>
@@ -204,8 +205,8 @@
                     distinctio dolorem, et expedita explicabo illum in iure laboriosam laudantium nam nemo numquam
                     provident rem sit tenetur voluptas.</p>
                 <ul class="list-inline">
-                    <li><img src="img/apple-store.png" class="img-responsive"></li>
-                    <li><img src="img/play-store.png" class="img-responsive"></li>
+                    <li class="wow fadeInLeft"><img src="img/apple-store.png" class="img-responsive"></li>
+                    <li class="wow fadeInRight"><img src="img/play-store.png" class="img-responsive"></li>
                 </ul>
             </div>
         </div>
@@ -223,6 +224,7 @@
         <div class="row">
             <div class="col-md-4">
                 <p><a href="#">CREDITS</a> | <a href="#">PRIVACY</a> | <a href="#">OUR TEAMS</a></p>
+
                 <p>Copyright by xxx. All rights reserved.</p>
             </div>
             <div class="col-md-4 col-md-offset-4" align="right">
@@ -235,6 +237,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
 <script src="js/script.js"></script>
 </body>
 </html>
