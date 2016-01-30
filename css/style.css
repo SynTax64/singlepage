@@ -1,6 +1,10 @@
+p, h1 {
+    font-family: 'Signika Negative', sans-serif;
+}
+
 /*NAVBAR*/
 .navbar-default {
-    background-color: black;
+    background-color: transparent;
     border-color: transparent;
 }
 
@@ -25,14 +29,193 @@
 
 @media (max-width: 768px) {
     .logo img {
-        margin: 15px 0 0 15px;
+        margin: 10px 0 0 15px;
     }
 
     .navbar-nav {
         margin: 0;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 
     .navbar-toggle {
         margin-top: 45px;
     }
+
+    #design {
+        text-align: center;
+    }
+
+    #community .image {
+        padding-bottom: 15px;
+    }
+
+    #footer p{
+        text-align: center;
+    }
+    #footer img{
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+}
+
+/*SLIDER*/
+
+#slider {
+    background: url("../img/bg.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.item {
+    color: #ffffff;
+    padding: 200px 0;
+}
+
+.item h1 {
+    font-size: 3em;
+}
+
+.carousel-indicators li {
+    background-color: #ffffff;
+    margin: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #16a085;
+    border: 1px solid #16a085;
+    margin: 5px;
+}
+
+.btn-success {
+    background-color: #16a085;
+    border: 1px solid #16a085;
+    font-size: 0.8em;
+    padding: 10px 20px 10px 20px;
+    margin: 15px 0;
+}
+
+.btn-success:hover {
+    background-color: #000000;
+    border: 1px solid black;
+}
+
+/*PHOTO*/
+
+#photo {
+    background-color: #f5f6f7;
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+
+#photo h1 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #16a085;
+}
+
+#photo .fa {
+    color: #16a085;
+}
+
+#photo .fa:hover {
+    color: #137f6a;
+}
+
+/* DESIGN */
+
+#design {
+    padding: 80px 0 80px 0;
+}
+
+#design h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #16a085;
+    padding-top: 25px;
+}
+
+/*COMMUNITY*/
+#community {
+    background-color: #f5f6f7;
+    padding: 80px 0 80px 0;
+}
+
+#community h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #16a085;
+}
+
+#community .green {
+    padding-top: 25px;
+}
+
+/*SIGNUP*/
+#signup {
+    background: url("../img/bg-signup.jpg");
+    width: 100%;
+    background-size: cover;
+    padding: 300px 0 300px;
+}
+
+#signup h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+#signup .btn-default {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+#signup .btn-default:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#signup .btn-default .fa {
+    color: #ffffff;
+}
+
+/*DOWNLOAD*/
+
+#download {
+    background-color: #f5f6f7;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#download h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #16a085;
+}
+
+#download p {
+    text-transform: uppercase;
+}
+
+#download img{
+    margin-top: 15px;
+}
+
+/*FOOTER*/
+
+#footer{
+    background-color: #ffffff;
+    padding: 40px 0 20px 0;
+}
+
+#footer p{
+    font-weight: 700;
+}
+#footer a{
+    color: #16a085
+}
+
+#footer a:hover{
+    text-decoration: none;
+    color: #12806a;
 }
